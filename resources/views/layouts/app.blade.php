@@ -7,9 +7,6 @@
 
         <title>{{ config('app.name', 'Laravel') }}</title>
 
-        <!-- Fonts -->
-        
-        <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
 
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/css/scss/main.scss' ,'resources/js/app.js'])
@@ -26,8 +23,8 @@
         <footer class="pt-10 pb-5" style="background-image:url({{ asset('images/footer.jpg') }})">
             <div class="container text-white">
                 <a class="logo relative w-[160px] block" href="{{ route('home') }}">
-                    <div class="bg-white px-2">
-                        <x-application-logo />
+                    <div>
+                        <x-application-logo-white />
                     </div>
                     <span class="absolute text-lg">Республики Крым</span>
                 </a>
