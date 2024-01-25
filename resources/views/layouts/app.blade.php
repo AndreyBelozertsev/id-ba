@@ -38,7 +38,7 @@
                         </p>
                     </div>
                 </div>
-                <div>
+                <div class="pb-8">
                     <ul>
                         <li><a href="{{ route('about.index') }}">О проекте</a></li>
                         <li><a href="{{ route('regulations.index') }}">Положение проекта</a></li>

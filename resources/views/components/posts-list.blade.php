@@ -7,9 +7,9 @@
         </div>
         <div class="grid grid-cols-12 gap-8">
             @foreach($posts as $post)
-                <div class="col-span-10 md:col-span-6 2xl:col-span-4">
-                    <p class="text-xs text-gray-400 mb-3">{{ $post->date }}</p>
-                    <a href="{{ route('post.show', ['slug'=> $post->slug] )}}" class="text-sm sm:text-lg">
+                <div class="col-span-10 md:col-span-6 2xl:col-span-4 pb-4">
+                    <p class="text-sm text-gray-400 mb-3">{{ $post->date }}</p>
+                    <a href="{{ route('post.show', ['slug'=> $post->slug] )}}" class="text-lg">
                         {{ $post->title }}
                     </a>
                 </div>
