@@ -95,7 +95,7 @@
                       <div class="max-w-[150px]">
                         <img class="mb-10 w-full" data-src="{{ Storage::disk('public')->url($category->thumbnail) }}" src="{{ asset('images/1x1.png') }}" alt="{{ $category->title }}">
                       </div>
-                      <h4 class="text-white uppercase text-2xl font-nunito-700">{{ $category->title }}</h4>
+                      <h4 class="text-white uppercase text-lg md:text-2xl font-nunito-700">{{ $category->title }}</h4>
                   </div>
                   <div class="col-span-12 lg:col-span-7 xl:col-span-8 lg:pl-4">
                     <p class="text-sm lg:text-xl pb-10 pr-2 lg:pb-14 xl:pb-0">
