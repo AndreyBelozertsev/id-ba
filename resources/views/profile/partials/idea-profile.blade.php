@@ -15,7 +15,7 @@
     </div>
 
 
-    <div class="p-10 flex flex-col gap-6">
+    <div class="py-10 lg:p-10 flex flex-col gap-6">
         @foreach($ideas as $idea)
             <div class=" w-full lg:max-w-full lg:flex">
                 <div class="border border-gray-400 bg-white  p-4 flex flex-col justify-between leading-normal w-full rounded-md">

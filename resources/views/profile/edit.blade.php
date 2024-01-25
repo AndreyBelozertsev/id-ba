@@ -1,16 +1,16 @@
 <x-app-layout>
     <div class="py-12">
-        <div class="xl:max-w-[60%] mx-auto bg-form-bg rounded-2xl py-8 px-10 grid gap-8">
+        <div class="xl:max-w-[60%] mx-auto bg-form-bg rounded-2xl py-8 px-2 lg:px-10 grid gap-8">
             <!-- Tabs -->
             <div class="tabs"
                 x-data="{ activeTab: '1'}"
             >
-                <ul class="flex gap-4 overfolw-x-hidden border-b-2 border-default h-[42px]">
+                <ul class="flex gap-4 overfolw-x-hidden border-b-2 border-default h-[62px]">
                     <li class="tabs-item">
                         <button
                             @click.prevent="activeTab = '1'"
                             :class="{ '_is-active': activeTab === '1' }"
-                            class="tabs-button h-full text-btn-sec-21 text-xl"
+                            class="tabs-button h-full text-btn-sec-21 text-base lg:text-xl"
                             type="button"
                         >
                             Моя информация
@@ -20,7 +20,7 @@
                         <button
                             @click.prevent="activeTab = '2'"
                             :class="{ '_is-active': activeTab === '2' }"
-                            class="tabs-button h-full text-btn-sec-21 text-xl"
+                            class="tabs-button h-full text-btn-sec-21 text-base lg:text-xl"
                             type="button"
                         >
                             Сменить пароль
@@ -30,7 +30,7 @@
                         <button
                             @click.prevent="activeTab = '3'"
                             :class="{ '_is-active': activeTab === '3' }"
-                            class="tabs-button h-full text-btn-sec-21 text-xl"
+                            class="tabs-button h-full text-btn-sec-21 text-base lg:text-xl"
                             type="button"
                         >
                             Мои идеи
