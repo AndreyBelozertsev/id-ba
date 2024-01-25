@@ -1,0 +1,107 @@
+.swiper3-button-next:after,
+.swiper-button-next:after {
+    content: '';
+}
+.swiper3-button-prev:after,
+.swiper-button-prev:after {
+    content: '';
+}
+
+.swiper .swiper3{
+    position: static;
+}
+.mySwiper2 .swiper-slide{
+    display: grid;
+}
+.mySwiper:before,
+.mySwiper:after {
+    content: "";
+    height: 100%;
+    top: 0;
+    width: 10%;
+    position: absolute;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.mySwiper:before {
+    left: 0;
+    //background: linear-gradient(90deg, rgb(110 187 98 / 50%) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.mySwiper:after {
+    right: 0;
+    //background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(110 187 98 / 50%) 150%);
+}
+
+.mySwiper {
+    border-bottom: 1px solid #6EBB62;
+    margin-bottom: 40px;
+}
+
+.mySwiper .swiper-slide {
+    width: auto;
+    cursor: pointer;
+    padding: 0 5px;
+    font-family: 'NunitoSans-Regular';
+}
+
+.mySwiper .swiper-slide-thumb-active {
+    font-family: 'NunitoSans-Bold';
+    padding-bottom: 5px;
+    border-bottom: 3px solid #6EBB62;
+}
+
+.swiper2 .swiper-pagination .swiper-pagination-bullet span[aria-label="Go to slide 1"] {
+    background: #000;
+}
+
+.swiper2 .swiper-slide:hover .inner {
+    background-color: #8f90f8;
+    color: white;
+}
+
+
+.swiper3-button-next, .swiper3-button-prev, 
+.swiper-button-next, .swiper-button-prev {
+    position: absolute;
+    z-index: 10;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.swiper1 .swiper-slide{
+   display: grid;
+}
+
+.swipe-4 .swiper-button-prev::before,
+.swipe-4 .swiper-button-next::before {
+  position: absolute;
+  bottom: 5px;
+  top: 0;
+  font-size: 46px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.swipe-4 .swiper-button-next::before {
+    content: '>';
+}
+.swipe-4 .swiper-button-prev::before {
+  content: '<';
+}
+.swipe-4 .swiper-button-prev{
+    left:50px;
+}
+.swipe-4 .swiper-button-next{
+    right:50px;
+}
+
+.swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled {
+    opacity: .35;
+    cursor: auto;
+    pointer-events: none;
+}

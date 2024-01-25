@@ -1,0 +1,17 @@
+
+
+@import './components/content.scss';
+@import './components/menu.scss';
+@import './components/slider.scss';
+
+.tabs-item ._is-active{
+    @apply border-b-2 border-header; 
+}
+
+
+[x-cloak] { display: none !important; }
+
+img.imgPreview {
+  max-width: 250px;
+  max-height: 250px;
+}

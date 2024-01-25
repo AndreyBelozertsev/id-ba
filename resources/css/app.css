@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer base {
+    @font-face {
+        font-family: 'NunitoSans-Regular';
+        src: local('NunitoSans-Regular'), url('/public/fonts/NunitoSans_10pt_SemiCondensed-Regular.ttf') format('truetype');
+        font-weight: 400;
+    }
+    
+    @font-face {
+        font-family: 'NunitoSans-Bold';
+        src: local('NunitoSans-Bold'), url('/public/fonts/NunitoSans_10pt_SemiCondensed-Bold.ttf') format('truetype');
+        font-weight: 700;
+    }
+}
