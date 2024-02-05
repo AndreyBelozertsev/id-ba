@@ -35,10 +35,10 @@ class ExpertSeeder extends Seeder
         ];
 
 
-        foreach($experts as $expert){
-            Expert::updateOrCreate(
-                $expert
-            );
-        }
+        // foreach($experts as $expert){
+        //     Expert::updateOrCreate(
+        //         $expert
+        //     );
+        // }
     }
 }
