@@ -24,7 +24,7 @@
           <div class="swiper-wrapper">
             @foreach ($slides as $slide)
               <div class="grid-cols-2 gap-4 swiper-slide">
-                <div class="flex justify-center rounded-2xl col-span-2 lg:col-span-1">
+                <div class="flex justify-center rounded-2xl col-span-2 lg:col-span-1 overflow-hidden rounded-2xl">
                   <img data-src="{{ Storage::disk('public')->url($slide->thumbnail) }}" src="{{ asset('images/1x1.png') }}" alt="president">
                 </div>
                 <div class="col-span-2 lg:col-span-1 pt-12 relative">
